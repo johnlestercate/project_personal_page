@@ -1,0 +1,80 @@
+body{
+    font-family: Tahoma;
+    background-color: #d0d8e4;
+}
+#top_bar{
+    height: 50px;
+    background-color: #405d9b;;
+    color:#d9dfeb;
+}
+#search_box{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(image/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+
+}
+
+#top_bar  img{
+    width: 50px;
+    float: right;
+}
+
+#container{
+    width: 800px;
+    margin: auto;
+    min-height: 400px;
+}
+
+#container_setting{
+    display: flex;
+}
+#items{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+#settings_bar{
+    
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    flex: 1;
+    min-height: 400px;
+    background-color: rgb(61, 61, 61);
+    padding: 8px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#setting_right{
+    margin-left: 20px;
+    background-color: grey;
+    flex: 2.9;
+    margin-top: 20px;
+    min-height: 400px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+#setting_right input{
+    width: 55%;
+  
+}
+#setting_right input[type=text] ,input[type=password]{
+    font-size: 20px;
+}
+
+#setting_right input[type=submit]
+{
+ width: auto;
+
+}

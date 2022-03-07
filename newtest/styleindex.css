@@ -1,0 +1,175 @@
+body{
+    font-family: Tahoma;
+    background-color: #d0d8e4;
+}
+#top_bar{
+    height: 50px;
+    background-color: #405d9b;;
+    color:#d9dfeb;
+}
+
+
+#search_box{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(image/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+
+}
+#top_bar  img{
+    width: 50px;
+    float: right;
+}
+
+
+#cover{
+    width: 800px;
+    margin: auto;
+    min-height: 400px;
+}
+#cover_image{
+    color: #405d9b;
+    background-color: white;
+    text-align: center;
+}
+
+#cover_pic{
+    width: 100%;
+}
+
+#profile_pic{
+    width: 150px;  
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+#user_name{
+    font-size: 20px;
+}
+#menu_buttons{
+
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+}
+#display{
+    display:flex;
+    
+}
+
+#left_display{
+
+    flex: 1;
+    min-height: 400px;
+    background-color: white;
+    padding: 8px;
+    margin-top: 20px;
+    color: #aaa;
+}
+#right_display{
+    flex: 2.5;
+    min-height: 400px;
+    padding: 20px;
+    padding-right: 0px;
+}
+#post_area {
+    border: solid thin #aaa;
+    background-color: white;
+    padding: 10px;
+}
+
+#post_area textarea{
+    width: 100%;
+    border:none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 60px;
+}
+#post_area input[type="submit"]
+{
+   float: right; 
+   background-color:#405d9b;
+   border:none;
+   color:white;
+   padding: 4px;
+   font-size: 14px;
+   border-radius: 2px;
+   width: 50px;
+}
+#username_post{
+    font-weight: bold;
+    margin-right: 4px;
+    color: #405d9b;
+
+}
+#post_display{
+    margin-top: 20px;
+    background-color: white;
+}
+
+#display ul {
+    display: block;
+    color: grey;
+    padding: 20px;
+    list-style: none;
+}
+
+#display ul li {
+    cursor:pointer;
+    padding-bottom: 10px;
+}
+
+#display ul li a{
+
+    color: grey;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+
+#post_concent{
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 20px;
+}
+#post{
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#date_post {
+  display: inline;
+  font-size: 12px;
+}
+
+#date_created{
+    font-size: 10px;
+    float:right;
+    color:rgb(12, 12, 12);
+}
+#profile_bar{
+    background-color: white;
+    min-height: 400px;
+    margin-top: 20px;
+    padding:8px;
+    text-align: center;
+    font-size: 20px;
+    color:#405d9b;
+}
+
+hr{
+   color:black;
+  padding: 2px;
+  width:  100%;
+
+}
+a{
+    margin-left: 20px;
+}
