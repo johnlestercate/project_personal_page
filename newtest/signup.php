@@ -37,7 +37,7 @@ if(isset($_POST['create'])){
 
     else{
         try{
-            $sql = "INSERT INTO users (firstname,lastname,email,username,password ) VALUES (?,?,?,?,?)";
+            $sql = "INSERT INTO users (firstname,lastname,email,username,password,image) VALUES (?,?,?,?,?,'user.png')";
             $stmtinsert = $dbh->prepare($sql);
             $result = $stmtinsert->execute([$firstname,$lastname,$email,$username,$password]);
 
